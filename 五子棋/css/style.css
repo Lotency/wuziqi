@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.container {
+  display: inline-block;
+  border: 1px solid;
+  border-radius: 10px;
+  box-shadow: -5px 5px 5px #cccccc, 5px 5px 5px #cccccc;
+}
+.show {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.show-child {
+  margin: 10px;
+}
